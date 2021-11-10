@@ -5,7 +5,9 @@ set history=500
 filetype plugin on
 filetype indent on
 
+
 "Always show current position
+set number
 set ruler
 
 " Turn on the Wild menu
@@ -65,7 +67,7 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    colorscheme desert
+    colorscheme industry
 catch
 endtry
 
@@ -96,7 +98,7 @@ set noswapfile
 
 
 " Be smart when using tabs ;)
-set smarttab
+"set smarttab
 
 " 1 tab == 4 spaces
 set shiftwidth=8
